@@ -21,7 +21,7 @@ class Stack{
     }
 
     int pop1(){
-      if(top1>0){
+      if(top1>0){ 
       return *(arr+top1);
       top1--;
       }
